@@ -1,5 +1,5 @@
 Pinteresting::Application.routes.draw do
-  get 'pages/home'
+  get 'page/home'
 
   root "pages#home"
   get "about" => "pages#about"
